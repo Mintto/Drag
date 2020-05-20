@@ -1,0 +1,8 @@
+/* setting */
+*{ margin:0; padding:0; list-style: none; text-decoration: none; box-sizing: border-box; user-select: none;}
+
+#dragBox{  margin:0 auto; padding:50px 0; width: 300px;}
+#dragBox>div{ width: inherit; min-height: 50px; margin-bottom: 15px; padding:10px;}
+#dragBox>div:last-child{ margin-bottom:0; }
+#dragBox>div:nth-child(odd){ background:lightblue; }
+#dragBox>div:nth-child(even){ background:lightcoral; }
